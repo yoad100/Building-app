@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentRight="false"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Fragments.Register">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Switch
+        android:id="@+id/switch_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="דייר"
+        android:textAlignment="textStart"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/email_register"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/input_borders"
+        android:ems="10"
+        android:hint="אימייל"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/password_register"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/input_borders"
+        android:ems="10"
+        android:hint="סיסמא"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/id_register"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/input_borders"
+        android:ems="10"
+        android:hint="תעודת זהות"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/first_name_register"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/input_borders"
+        android:ems="10"
+        android:hint="שם פרטי"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/last_name_register"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/input_borders"
+        android:ems="10"
+        android:hint="שם משפחה"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/department_num_register"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/input_borders"
+        android:ems="10"
+        android:hint="מספר דירה"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/dynamic_register"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/input_borders"
+        android:ems="10"
+        android:hint="תשלום חודשי"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/register_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:fontFamily="sans-serif-black"
+        android:text="הרשמה"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="24sp" />
+
+</LinearLayout>
